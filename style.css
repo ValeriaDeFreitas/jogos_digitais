@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+.bimg {
+    background: url("imagens_valeria/img1.png") no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 500%;
+    background-size: cover;
+    overflow: scroll;
+}
+.img{
+    position: absolute;
+    width: 100%;
+}
+.b{
+    background-color: #2F33A3;
+}
+
+.contenido{
+    position: absolute;
+    width:92% ;
+    height: 130%;
+    background-color: black;
+}
+.caja{
+    position: absolute;
+    width:50% ;
+    height: 50%;
+    background-color: #5EC9E0;
+
+}
+.caja2{
+    position: absolute;
+    width:50% ;
+    height: 50%;
+    background-color: #5EC9E0;
+
+}
