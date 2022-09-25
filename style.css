@@ -36,6 +36,7 @@
     background-color: #5EC9E0;
     left: 3%;
     top: 90%;
+    overflow: scroll;
 
 }
 .caja2{
@@ -45,6 +46,8 @@
     background-color: #5EC9E0;
     left: 10%;
     top: 95%;
+    overflow: scroll;
+    
 
 }
 .caja3{
