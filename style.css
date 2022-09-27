@@ -25,7 +25,7 @@
 
 .contenido{
     position: absolute;
-    width:92% ;
+    width:94% ;
     height: 300%;
     background-color: black;
 }
@@ -36,7 +36,7 @@
     background-color: #5EC9E0;
     left: 3%;
     top: 90%;
-    overflow: scroll;
+    
 
 }
 .caja2{
@@ -46,7 +46,7 @@
     background-color: #5EC9E0;
     left: 10%;
     top: 95%;
-    overflow: scroll;
+
     
 
 }
@@ -99,7 +99,7 @@
     background:url("imagens_valeria/img4.png");
     width: 104px;
     height: 100px;
-    top: 550px;
+    top: 740px;
     left: 25%;
     
     animation: link 1s steps(2) infinite;
@@ -124,24 +124,21 @@
 .line{
     position: relative;
     margin-top: 13%;
-    width: 92%;
-    height: 2.5px;
-    left: 3.9%;
+    height: 3px;
+    width: 94%;
     color: #00D1FF;
 }
 .line2{
     position: relative;
     margin-top: 35%;
-    width: 92%;
-    height: 2.5px;
-    left: 3.9%;
+    width: 94%;
+    height: 3px;
     color: #00D1FF;
 }
 .line3{
     position: relative;
     margin-top: 40%;
-    width: 92%;
-    height: 2.5px;
-    left: 3.9%;
+    width: 94%;
+    height: 3px;
     color: #00D1FF;
 }
