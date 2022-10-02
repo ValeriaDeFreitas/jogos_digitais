@@ -17,383 +17,457 @@
 </head>
 
 <body>
-    <img class="img" src="imagens_valeria/img1.png">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <div class="wrapper">
+        <img class="img" src="imagens_valeria/img1.png">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img src="imagens_valeria/Rectangle 19.png" class="d-block w-100  h-50  px-5 mt-5 " alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="imagens_valeria/jg 1.png" class="d-block w-100  h-50 px-5  mt-5" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="imagens_valeria/img_denv 1.png" class="d-block w-100 h-50 px-5 mt-5" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active ">
-                <img src="imagens_valeria/Rectangle 19.png" class="d-block w-100  h-50  px-5 mt-5 " alt="...">
-            </div>
-            <div class="carousel-item ">
-                <img src="imagens_valeria/jg 1.png" class="d-block w-100  h-50 px-5  mt-5" alt="...">
-            </div>
-            <div class="carousel-item ">
-                <img src="imagens_valeria/img_denv 1.png" class="d-block w-100 h-50 px-5 mt-5" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
 
+        <nav class="navbar navbar-expand-lg text-black mx-5 menu">
+            <div class="container-fluid">
+                <div class="dropdown">
+                    <button class="rounded-3 dropdown-toggle bt" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Perfil
+                    </button>
+                    <ul class="dropdown-menu " style="background-color:#C4B5F5;">
+                        <li><a class="dropdown-item " href="#area">Introdução</a></li>
+                        <li><a class="dropdown-item " href="#area">Áreas</a></li>
 
-    <nav class="navbar navbar-expand-lg text-black mx-5 menu">
-        <div class="container-fluid">
-            <div class="dropdown">
-                <button class="rounded-3 dropdown-toggle bt" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Perfil
-                </button>
-                <ul class="dropdown-menu " style="background-color:#C4B5F5;">
-                    <li><a class="dropdown-item " href="#area">Introdução</a></li>
-                    <li><a class="dropdown-item " href="#area">Áreas</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown ">
+                    <button class="rounded-3 dropdown-toggle bt" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Mercado
+                    </button>
+                    <ul class="dropdown-menu" style="background-color:#C4B5F5;">
+                        <li><a class="dropdown-item " href="#salario">salário</a></li>
+                        <li><a class="dropdown-item " href="#salario">empregabilidade</a></li>
+                        <li><a class="dropdown-item " href="#salario">áreas de atuação</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="rounded-3 dropdown-toggle bt" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Graduação
+                    </button>
+                    <ul class="dropdown-menu" style="background-color:#C4B5F5;">
+                        <li><a class="dropdown-item " href="#faculdade">faculdade</a></li>
+                        <li><a class="dropdown-item " href="#faculdade">graduação</a></li>
+                        <li><a class="dropdown-item " href="#faculdade">pós-graduação</a></li>
+                    </ul>
+                </div>
 
-                </ul>
-            </div>
-            <div class="dropdown">
-                <button class="rounded-3 dropdown-toggle bt" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Graduação
-                </button>
-                <ul class="dropdown-menu" style="background-color:#C4B5F5;">
-                    <li><a class="dropdown-item " href="#faculdade">faculdade</a></li>
-                    <li><a class="dropdown-item " href="#faculdade">graduação</a></li>
-                    <li><a class="dropdown-item " href="#faculdade">pós-graduação</a></li>
-                </ul>
-            </div>
-            <div class="dropdown ">
-                <button class="rounded-3 dropdown-toggle bt" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Mercado
-                </button>
-                <ul class="dropdown-menu" style="background-color:#C4B5F5;">
-                    <li><a class="dropdown-item " href="#salario">salário</a></li>
-                    <li><a class="dropdown-item " href="#salario">empregabilidade</a></li>
-                    <li><a class="dropdown-item " href="#salario">áreas de atuação</a></li>
-                </ul>
-            </div>
+        </nav>
 
-    </nav>
+        <div class="mx-5 contenido"></div>
+        <div id="humano"></div>
+        <div id="link"></div>
+        <div id="area" class="opacity-25 ms-5 caja rounded-5"></div>
+        
+            <div 
+                class="opacity-50 caja2 overflow-auto rounded-5" 
+                data-bs-smooth-scroll="true"
+            >
+            <p>
+                <h1>Introdução</h1>
+                Olá, você gostaria de saber o perfil de uma pessoa que trabalha na área de jogos digitais? <br>
+                Você vai precisar de algumas habilidades como: criatividade, saber desenhar, saber escrever, saber o que torna 
+                os jogos mais divertidos para as pessoas, saber programar (fazer os códigos que criam os jogos),
+                ter conhecimento básico de como criar esboços das suas ideias, saber criar uma história legal e divertida para as
+                pessoas gostarem de jogar, saber fazer ou conhecer efeitos sonoros, músicas e trilhas sonoras.
+                As músicas são bastante usadas nos jogos para fazer o jogador se sentir dentro do mundo do jogo. 
+                Também é legal tem conhecimento sobre humor já que muitos personagens de jogos são conhecidos por ser engraçados.  
+            </p>
+            <h1>Área</h1>
+            <p>Você gostaria de saber como é trabalhar com jogos digitais? 
 
-    <div class="mx-5 text-white contenido"></div>
-    <div id="humano"></div>
-    <div id="link"></div>
-    <div id="area" class="opacity-25 ms-5 caja rounded-5"></div>
-    <div class="opacity-25 caja2 rounded-5 "></div>
-       <!-- <div class="text-white position-absolute text-small">Olá, você gostaria de saber o perfil de uma pessoa que trabalha na área de jogos digitais?
-            Você vai precisar de algumas habilidades como: criatividade, saber desenhar, saber escrever, saber o que
-            torna os jogos mais divertidos para as pessoas, saber programar (fazer os códigos que criam os jogos), ter
-            conhecimento básico de como criar esboços das suas ideias, saber criar uma história legal e divertida para
-            as pessoas gostarem de jogar, saber fazer ou conhecer efeitos sonoros, músicas e trilhas sonoras. As músicas
-            são bastante usadas nos jogos para fazer o jogador se sentir dentro do mundo do jogo. Também é legal tem
-            conhecimento sobre humor já que muitos personagens de jogos são conhecidos por ser engraçados.
-        </div>-->
-    <hr class="line ms-5 ">
-    <div id="faculdade"class="opacity-25 caja3 rounded-5"></div>
-    <div class="opacity-25 ms-5 caja4 rounded-5"></div>
-    <hr class="line2  ms-5">
-    <div id="salario" class="opacity-25 ms-5 caja5 rounded-5"></div>
-    <div class="opacity-25 caja6 rounded-5"></div>
-    <hr class="line3  ms-5">
-
-
-    <div class="card footer"
-        style="width: 1583px;  height:35rem;  top: 176.5rem; position: absolute; background-color: #FF7664;">
-        <div class="card-body d-flex flex-row justify-content-between">
-            <div class="d-flex flex-column align-items-center">
-                <a target="blank" href="https://www.pucsp.br/graduacao/jogos-digitais"><img
-                        src="imagens_valeria/img10.png" alt="img10" width="90" height="160"></a>
-                <span class="icon ">
-                    <a target="blank" href="https://www.facebook.com/PUCSP.Oficial" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-facebook" viewBox="0 0 20 20">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg>facebook</a>
-                    <br>
-                    <br>
-
-                    <a target="blank" href="https://www.linkedin.com/school/puc-sp" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-linkedin" viewBox="0 0 20 20">
-                            <path
-                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>Linkedin</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.instagram.com/puc_sp" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-instagram" viewBox="0 0 20 20">
-                            <path
-                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                        </svg>Instagram</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.youtube.com/channel/UCZBUzg4_aa8YhujNDp-nktQ"
-                        class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                            fill="currentColor" class="bi bi-youtube" viewBox="0 0 20 20">
-                            <path
-                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
-                        </svg>Youtube</a>
-                    <br>
-                    <br>
-
-                </span>
-            </div>
-
-
-
-
-            <div class="d-flex flex-column align-items-center mt-3">
-                <a target="blank"
-                    href="https://www.mackenzie.br/graduacao/ead/tecnologia-em-jogos-digitais?idtag=ad374f1d-08b6-494d-be93-2cdf5dff34ae&gclid=CjwKCAjwh-CVBhB8EiwAjFEPGUEqt_K-WLFy4RjIlkCgVMo2PB43wRw_bEM6YQy3CV9xdqIUlYdLPBoCIpoQAvD_BwE"><img
-                        src="imagens_valeria/img11.png" alt="img10" width="150" height="150"></a>
-                <span class="icon">
-                    <a target="blank" href="https://www.facebook.com/mackenzie1870" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-facebook" viewBox="0 0 20 20">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg>facebook</a>
-                    <br>
-                    <br>
-
-                    <a target="blank" href="https://br.linkedin.com/school/mackenzie1870" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-linkedin" viewBox="0 0 20 20">
-                            <path
-                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>Linkedin</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.instagram.com/mackenzie1870/" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-instagram" viewBox="0 0 20 20">
-                            <path
-                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                        </svg>Instagram</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.youtube.com/c/Mackenzie1870" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-youtube" viewBox="0 0 20 20">
-                            <path
-                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
-                        </svg>Youtube</a>
-                    <br>
-                    <br>
-
-                </span>
-            </div>
-
-            <div class="d-flex flex-column align-items-center mt-3">
-                <a target="blank"
-                    href="https://portal.fmu.br/cursos/graduacao/jogos-digitais/?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGRqRAAPoHO45M_zxIpvxYQGXym1jkrdv5nyaFaJLWeWARal4eydXZBoCwssQAvD_BwE"><img
-                        src="imagens_valeria/img12.png" alt="img10" width="300" height="160"></a>
-                <span class="icon">
-                    <a target="blank" href="https://www.facebook.com/fmu" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-facebook" viewBox="0 0 20 20">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg>facebook</a>
-                    <br>
-                    <br>
-
-                    <a target="blank" href="https://www.linkedin.com/school/centro-universitario-fmu-fiam-faam"
-                        class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                            fill="currentColor" class="bi bi-linkedin" viewBox="0 0 20 20">
-                            <path
-                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>Linkedin</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.instagram.com/fmu_oficial" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-instagram" viewBox="0 0 20 20">
-                            <path
-                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                        </svg>Instagram</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.youtube.com/user/fmuoficial" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-youtube" viewBox="0 0 20 20">
-                            <path
-                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
-                        </svg>Youtube</a>
-
-                </span>
-            </div>
-
-            <div class="d-flex flex-column align-items-center mt-2">
-                <a target="blank"
-                    href="https://descomplica.com.br/faculdade/tecnologia/jogos-digitais/?utm_source=google&utm_medium=cpc&utm_campaign=psq-nonbrand-faculdade-cursos&utm_term=tecnologia-jogos-digitais&utm_content=tecnologia-jogos-digitais&gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbttN45DPK6PkvE5swytWes1W92JlJGb-DkBqgqeRyGuTJBp6PySrxoCwTMQAvD_BwE"><img
-                        src="imagens_valeria/img13.png" alt="img10" width="280" height="160"></a>
-                <span class="icon">
-                    <a target="blank" href="https://www.facebook.com/faculdadedescomplica" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-facebook" viewBox="0 0 20 20">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg>facebook</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.linkedin.com/school/descomplicafaculdade" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-linkedin" viewBox="0 0 20 20">
-                            <path
-                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>Linkedin</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.instagram.com/descomplicafaculdade" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-instagram" viewBox="0 0 20 20">
-                            <path
-                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                        </svg>Instagram</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.youtube.com/channel/UC911DweZpoXAm3y4GaqUyLA"
-                        class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                            fill="currentColor" class="bi bi-youtube" viewBox="0 0 20 20">
-                            <path
-                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
-                        </svg>Youtube</a>
-                    <br>
-                    <br>
-
-                </span>
-            </div>
-
-            <div class="d-flex flex-column align-items-center mt-5">
-                <a target="blank"
-                    href="https://ebaconline.com.br/unreal-engine?utm_source=google&utm_medium=cpc&utm_campaign=course_39_unreal_google_search_all_conversions_all&utm_content=c_12664947315|adg_117317892421|ad_512596825813|ph_kwd-355785550536|key_curso%20de%20criar%20jogos|dev_c|pst_|rgnid_1001761|placement_&gclid=CjwKCAjwh-CVBhB8EiwAjFEPGVwrVvwB1OwX3AiRqa-GMosPRnov98MBBXk2U-YHVujAVTp8BKYOcxoCMrkQAvD_BwE"><img
-                        src="imagens_valeria/img14.png" alt="img10" width="210" height="90"></a>
-                <span class="icon mt-4">
-                    <a target="blank" href="https://www.facebook.com/escolabritanicadeartescriativas"
-                        class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                            fill="currentColor" class="bi bi-facebook" viewBox="0 0 20 20">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg>facebook</a>
-                    <br>
-                    <br>
-
-                    <a target="blank" href="https://www.linkedin.com/school/ebac-escola-britanica-artes-criativas"
-                        class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                            fill="currentColor" class="bi bi-linkedin" viewBox="0 0 20 20">
-                            <path
-                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>Linkedin</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.instagram.com/e.b.a.c" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-instagram" viewBox="0 0 20 20">
-                            <path
-                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                        </svg>Instagram</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.youtube.com/EBACoficial" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-youtube" viewBox="0 0 20 20">
-                            <path
-                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
-                        </svg>Youtube</a>
-                    <br>
-                    <br>
-
-                </span>
-            </div>
-
-
-            <div class="d-flex flex-column align-items-center mt-5">
-                <a target="blank"
-                    href="https://estacio.br/cursos/graduacao/jogos-digitais?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbmSEQw4krYUPWgb56f3S0DSGOmAcEmAxdLNxDYQLzGaddF-4bfKORoCtgoQAvD_BwE"><img
-                        src="imagens_valeria/img15.png" alt="img10" width="100" height="80"></a>
-                <span class="icon mt-5">
-                    <a target="blank" href="https://www.facebook.com/br.estacio" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-facebook" viewBox="0 0 20 20">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg>facebook</a>
-                    <br>
-                    <br>
-
-                    <a target="blank" href="https://www.linkedin.com/school/estacio" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-linkedin" viewBox="0 0 20 20">
-                            <path
-                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>Linkedin</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.instagram.com/estacio_brasil" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-instagram" viewBox="0 0 20 20">
-                            <path
-                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                        </svg>Instagram</a>
-                    <br>
-                    <br>
-                    <a target="blank" href="https://www.youtube.com/user/Estacio" class="text-dark"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-youtube" viewBox="0 0 20 20">
-                            <path
-                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
-                        </svg>Youtube</a>
-                    <br>
-                    <br>
-
-                </span>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                Dentro da profissão de jogos digitais temos três tipos de profissionais. 
+                OS profissionais são: o game design, o artista e o desenvolvedor.  
+                O game design é a pessoa responsável por fazer a história e desenhar um 
+                esboço das ideias sobre como o jogo ficará, esse esboço é chamado de arte conceitual 
+                ele é responsável pela interação do jogador, ou seja, a forma como o jogador vai explorar os lugares,
+                completar as missões e as tarefas dentro dos jogos. O artista é responsável por desenhar as artes que estarão 
+                como os lugares, personagens, armas, poderes, montanhas, cidades, carros, casas etc. Todas as coisas que você 
+                dentro dos jogos são desenhadas pelo artista ele pode desenhar em pixel art, modelagem 3d, modelagem 2d, as artes também
+                podem ser realistar ou mais cartoonizadas dependendo do jogo. O desenvolvedor é responsável por programar 
+                o jogo o seja fazer com que tudo funcione, por exemplo ele é responsável por fazer o personagem andar, falar, lutar, conversar,
+                fazer o ambiente, os lugares, as coisas, basicamente tudo dentro do jogo eles também são responsáveis por colocar as trilhas sonoras,
+                testar, editar e traduzir os jogos. </p>
+        </div>  
 
 
         </div>
+        <hr class="line">
+
+        <div id="salario" class="opacity-25 caja3 rounded-5"></div>
+        <div class="opacity-50 ms-5 caja4 rounded-5 overflow-auto" 
+        data-bs-smooth-scroll="true"
+        >
+        <p>
+            <h1>Salário</h1>
+            As médias salariais para quem trabalha com jogos digitais são: 
+            Programador:8,2mil 
+            Designer de games:4mil 
+            Programador Visual Gráfico: R$ 5.218,66 
+            Gravador de Matriz para Rotogravura (Eletromecânico e Químico): R$ 5.053,37 
+            Operador de Sistemas de Prova (Analógico e Digital): R$ 3.732,24 
+            Copiador de Chapa: R$ 3.577,98 
+            Editor de Texto e Imagem: R$ 3.502,82 
+            Gravador de Matriz para Flexografia: R$ 3.283,52 
+        </p>
+        <p>
+            <h1>Empregabilidade</h1>
+            A área de jogos digitais é uma das que mais emprega e foi crescendo com a 
+            pandemia e hoje é uma das que mais emprega no Brasil, ele fatura cerca de US$170 mundialmente
+            e a indústria brasileira é a maior da américa latina portanto o mercado necessita de mais empregados. 
+            A qualificação profissional inclui programação de jogos digitais e interface gráfica, essa área é multidisciplinar 
+            portanto o profissional dessa área deve adquirir habilidades para se destacar. 
+            O Brasil está entre os 5 países que mais consomem conteúdo online no mundo principalmente pelo
+            celular ou seja e um mercado promissor para o brasil. Uma das tendências no mercado de jogos são os de realidade 
+            aumentada como Pokémon Go. No brasil a maioria dos jogos se transformam em filmes portanto além de saber programação é necessário ter criatividade. 
+        </p>
+        <p>
+            <h1>Áreas de atuação</h1>
+            Dentro do segmento de jogos digitais existem várias áreas por exemplo: desenvolver as etapas que constituem um jogo, 
+            roteirização, descrição dos personagens, modelagem, criação de ambiente digital e finalização. 
+            Dentro desse mercado as atividades são interativas e lúdicas feitas para criar e elaborar conteúdo digital,
+            o profissional pode ser autônomo ou trabalhar em empresas. Uma das características importantes para quem deseja trabalhar 
+            na área é se atualizar sempre já que essa área está em constante mudança, outra característica é saber falar outras línguas 
+            (especialmente inglês) já que as mudanças ocorrem de forma global.   
+        </p>
+       
+            
+        </div>
+        <hr class="line2  ms-5">
+        <div id="faculdade" class="opacity-25 ms-5 caja5 rounded-5"></div>
+        <div class="opacity-50 caja6 rounded-5 overflow-auto"
+        data-bs-smooth-scroll="true"
+        >
+            <p>
+                <h1>Faculdade</h1>
+                Você gostaria de saber como funcionam as faculdades de jogos digitais? 
+                As faculdades de jogos digitais oferecem cursos que ensinam a desenvolver jogos para celular, 
+                computador, tablet, consoles. Dentro dos cursos você vai aprender a programação, a desenvolver roteiros,
+                planejar e desenvolver projetos sobre os jogos que podem ser voltados tanto para o entretenimento quanto para a educação. 
+                Você também pode adquirir habilidades de escrita ou desenho mais voltados para a criatividade. 
+                A grade disciplinar do curso oferece matérias de roteirização, storyboard (que é uma técnica que consiste em desenhar
+                quadrinhos para fazer uma animação), desenho, ilustração, programação, banco de dados, matemática, cultura, mitologia, áudio e design. 
+                Algumas faculdades que oferecem o curso de jogos digitais são a Puc de São Paulo, Mackenzie, FMU, Descomplica, Estácio e Escola Britânica de Artes Criativas e Tecnologia. 
+            </p>
+            <p>
+                <h1>Graduação</h1>
+                Uma das graduações que a área de jogos digitais é o bacharelado nela as pessoas são ensinadas a fazer maquetes digitais, roteiros, 
+                montar os personagens, desenvolver cenários e também fazer vinhetas para os jogos. O bacharel pode trabalhar nas áreas de jogos educativos, 
+                computação gráfica, em áreas da saúde que precisem de simuladores, construção de mundos virtuais, criação e modelagem de personagens, desenho digital,
+                edição de vídeo, iluminação, inteligência artificial, interfaces, jogos em 2D, pintura digital, processamento de imagens, programação de computadores e engenharia de software. 
+                Outra graduação é o tecnólogo nele você pode aprender a testar, projetar, elaborar, e desenvolver roteiros e mecânicas para te ajudar a produzir seus jogos. 
+                No curso de tecnólogo você será capacitado para ser game designer, Projetista de Jogos, Produtor de Jogos, Designer de Mecânica de Jogo, Designer de Fase (Level Designer) 
+                e Designer de Ambientação. Essa área junta Informática e desenho e tem disciplinas como desenho de observação, animação de jogos, roteirização de jogos e programação orientada a objetos. 
+            </p>
+            <p>
+                <h1>Pós-Graduação</h1>
+                Uma das pós-graduações que o curso de jogos digitais tem é o mestrado que junta o conhecimento acadêmico (das universidades) com cultura e educação, 
+                esse curso é mais voltado para fazer jogos na área da educação e simuladores que tem como objetivo fazer as pessoas aprenderem novas capacidades através dos jogos, esse tipo de atividade 
+                também ajuda na resolução de problemas dentro de uma empresa. As áreas que você poderá trabalhar como produtor de jogos, animador gráfico, projetista de jogos, designer-chefe, designer de sistema,
+                designer de mecânica de jogo, designer de fase, designer de ambientação e redator, e poderá encontrar oportunidades de trabalho em empresas produtoras de jogos voltadas para entretenimento, serious game, educacional, etc, 
+                agências de Publicidade e Propaganda ou como empreendedor na área. 
+                Outra pós-graduação é o doutorado que na área de jogos digitais trabalha com computação gráfica e procura fazer gráficos cada vez mais ultrarrealistas, o doutorado é mais voltado para áreas da medicina como em tratamentos de 
+                memória (estimulando as capacidades cognitivas do cérebro), combater depressão, prevenir doenças ligadas ao cérebro e no tratamento de fobias. 
+                Além das graduações e pós-graduações a área de jogos digitais também possui certificações que servem para qualificar os estudantes dos conceitos mais básicos aos mais avançados nos campos da arte, tecnologia, jogos e entretenimento digital. 
+                As certificações oferecem diferentes níveis de conhecimento por exemplo: qualificação em arte digital para jogos, qualificação em animador básico e desenvolvedor web, qualificação em game design e desenvolvedor de jogos para plataforma móvel,
+                qualificação em gerência de projetos, artista e desenvolvedor de jogos 3d, tecnólogo em jogos digitais.
+            </p>
+        </div>
+        <hr class="line3  ms-5">
+
+
+        <div class="card footer"
+            style="width: 100%;  height:35rem;  top: 148rem; position: absolute; background-color: #FF7664;">
+            <div class="card-body d-flex flex-row justify-content-between">
+                <div class="d-flex flex-column align-items-center">
+                    <a target="blank" href="https://www.pucsp.br/graduacao/jogos-digitais"><img
+                            src="imagens_valeria/img10.png" alt="img10" width="90" height="160"></a>
+                    <span class="icon ">
+                        <a target="blank" href="https://www.facebook.com/PUCSP.Oficial" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 20 20">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>facebook</a>
+                        <br>
+                        <br>
+
+                        <a target="blank" href="https://www.linkedin.com/school/puc-sp" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 20 20">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>Linkedin</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.instagram.com/puc_sp" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 20 20">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>Instagram</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.youtube.com/channel/UCZBUzg4_aa8YhujNDp-nktQ"
+                            class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                fill="currentColor" class="bi bi-youtube" viewBox="0 0 20 20">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg>Youtube</a>
+                        <br>
+                        <br>
+
+                    </span>
+                </div>
 
 
 
 
+                <div class="d-flex flex-column align-items-center mt-3">
+                    <a target="blank"
+                        href="https://www.mackenzie.br/graduacao/ead/tecnologia-em-jogos-digitais?idtag=ad374f1d-08b6-494d-be93-2cdf5dff34ae&gclid=CjwKCAjwh-CVBhB8EiwAjFEPGUEqt_K-WLFy4RjIlkCgVMo2PB43wRw_bEM6YQy3CV9xdqIUlYdLPBoCIpoQAvD_BwE"><img
+                            src="imagens_valeria/img11.png" alt="img10" width="150" height="150"></a>
+                    <span class="icon">
+                        <a target="blank" href="https://www.facebook.com/mackenzie1870" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 20 20">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>facebook</a>
+                        <br>
+                        <br>
+
+                        <a target="blank" href="https://br.linkedin.com/school/mackenzie1870" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 20 20">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>Linkedin</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.instagram.com/mackenzie1870/" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 20 20">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>Instagram</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.youtube.com/c/Mackenzie1870" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 20 20">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg>Youtube</a>
+                        <br>
+                        <br>
+
+                    </span>
+                </div>
+
+                <div class="d-flex flex-column align-items-center mt-3">
+                    <a target="blank"
+                        href="https://portal.fmu.br/cursos/graduacao/jogos-digitais/?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGRqRAAPoHO45M_zxIpvxYQGXym1jkrdv5nyaFaJLWeWARal4eydXZBoCwssQAvD_BwE"><img
+                            src="imagens_valeria/img12.png" alt="img10" width="300" height="160"></a>
+                    <span class="icon">
+                        <a target="blank" href="https://www.facebook.com/fmu" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 20 20">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>facebook</a>
+                        <br>
+                        <br>
+
+                        <a target="blank" href="https://www.linkedin.com/school/centro-universitario-fmu-fiam-faam"
+                            class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                fill="currentColor" class="bi bi-linkedin" viewBox="0 0 20 20">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>Linkedin</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.instagram.com/fmu_oficial" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 20 20">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>Instagram</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.youtube.com/user/fmuoficial" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 20 20">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg>Youtube</a>
+
+                    </span>
+                </div>
+
+                <div class="d-flex flex-column align-items-center mt-2">
+                    <a target="blank"
+                        href="https://descomplica.com.br/faculdade/tecnologia/jogos-digitais/?utm_source=google&utm_medium=cpc&utm_campaign=psq-nonbrand-faculdade-cursos&utm_term=tecnologia-jogos-digitais&utm_content=tecnologia-jogos-digitais&gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbttN45DPK6PkvE5swytWes1W92JlJGb-DkBqgqeRyGuTJBp6PySrxoCwTMQAvD_BwE"><img
+                            src="imagens_valeria/img13.png" alt="img10" width="280" height="160"></a>
+                    <span class="icon">
+                        <a target="blank" href="https://www.facebook.com/faculdadedescomplica" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 20 20">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>facebook</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.linkedin.com/school/descomplicafaculdade"
+                            class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                fill="currentColor" class="bi bi-linkedin" viewBox="0 0 20 20">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>Linkedin</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.instagram.com/descomplicafaculdade" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 20 20">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>Instagram</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.youtube.com/channel/UC911DweZpoXAm3y4GaqUyLA"
+                            class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                fill="currentColor" class="bi bi-youtube" viewBox="0 0 20 20">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg>Youtube</a>
+                        <br>
+                        <br>
+
+                    </span>
+                </div>
+
+                <div class="d-flex flex-column align-items-center mt-5">
+                    <a target="blank"
+                        href="https://ebaconline.com.br/unreal-engine?utm_source=google&utm_medium=cpc&utm_campaign=course_39_unreal_google_search_all_conversions_all&utm_content=c_12664947315|adg_117317892421|ad_512596825813|ph_kwd-355785550536|key_curso%20de%20criar%20jogos|dev_c|pst_|rgnid_1001761|placement_&gclid=CjwKCAjwh-CVBhB8EiwAjFEPGVwrVvwB1OwX3AiRqa-GMosPRnov98MBBXk2U-YHVujAVTp8BKYOcxoCMrkQAvD_BwE"><img
+                            src="imagens_valeria/img14.png" alt="img10" width="210" height="90"></a>
+                    <span class="icon mt-4">
+                        <a target="blank" href="https://www.facebook.com/escolabritanicadeartescriativas"
+                            class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                fill="currentColor" class="bi bi-facebook" viewBox="0 0 20 20">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>facebook</a>
+                        <br>
+                        <br>
+
+                        <a target="blank" href="https://www.linkedin.com/school/ebac-escola-britanica-artes-criativas"
+                            class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                fill="currentColor" class="bi bi-linkedin" viewBox="0 0 20 20">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>Linkedin</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.instagram.com/e.b.a.c" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 20 20">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>Instagram</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.youtube.com/EBACoficial" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 20 20">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg>Youtube</a>
+                        <br>
+                        <br>
+
+                    </span>
+                </div>
 
 
+                <div class="d-flex flex-column align-items-center mt-5">
+                    <a target="blank"
+                        href="https://estacio.br/cursos/graduacao/jogos-digitais?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbmSEQw4krYUPWgb56f3S0DSGOmAcEmAxdLNxDYQLzGaddF-4bfKORoCtgoQAvD_BwE"><img
+                            src="imagens_valeria/img15.png" alt="img10" width="100" height="80"></a>
+                    <span class="icon mt-5">
+                        <a target="blank" href="https://www.facebook.com/br.estacio" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 20 20">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>facebook</a>
+                        <br>
+                        <br>
 
+                        <a target="blank" href="https://www.linkedin.com/school/estacio" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 20 20">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>Linkedin</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.instagram.com/estacio_brasil" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 20 20">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>Instagram</a>
+                        <br>
+                        <br>
+                        <a target="blank" href="https://www.youtube.com/user/Estacio" class="text-dark"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 20 20">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg>Youtube</a>
+                        <br>
+                        <br>
 
+                    </span>
+                </div>
+
+            </div>
+        </div>
 
 </body>
 
