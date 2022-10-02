@@ -106,7 +106,7 @@
     background:url("imagens_valeria/img4.png");
     width: 104px;
     height: 100px;
-    top: 590px;
+    top: 95%;
     left: 25%;
     
     animation: link 1s steps(2) infinite;
