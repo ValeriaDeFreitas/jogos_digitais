@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
-@media(max-width: 600px){
+
 .wrapper{
     position:absolute;
     top: 0%;
@@ -158,4 +158,4 @@
     color: black;
    
 }
-}
+
