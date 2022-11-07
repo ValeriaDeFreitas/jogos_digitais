@@ -88,29 +88,3 @@
         background-position: 200px;
     }
 }
-
-.line {
-    position: relative;
-    margin-top: 72%;
-    height: 3px;
-    width: 92%;
-    left: 3.9%;
-    color: #00D1FF;
-}
-
-.line2 {
-    position: relative;
-    margin-top: 35%;
-    width: 92%;
-    height: 3px;
-    color: #00D1FF;
-}
-
-.line3 {
-    position: relative;
-    margin-top: 40%;
-    width: 92%;
-    height: 3px;
-    color: #00D1FF;
-}
-
